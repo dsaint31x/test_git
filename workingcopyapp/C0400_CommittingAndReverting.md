@@ -1,0 +1,6 @@
+# 4. Committing and Reverting
+
+You can commit changes to your files for the entire repository, for all files in a sub-directory or for a specific file. If you do not wish to commit some of your files you can Revert to how they where at the last commit. The files taken into account are determined by where in the directory structure you initiate the commit. As a short-hand you can swipe left on a repository, directory or file to commit.
+
+During commit you are shown a list of changed files and can view differences for individual files by pressing the button that shows the number of lines added or deleted. Files with a checkmark will be included in the commit and you toggle the checkmark by tapping the file. Working Copy will push the commit to the remote right away if you enable the `+Push` button.
+As a general rule you should make commits with a single purpose and only include the changed files that helped achieve this purpose. You should write a message in the top line describing this purpose; if it is hard to write something short but concrete you might need to break your commit into smaller parts.
