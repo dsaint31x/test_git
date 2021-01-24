@@ -46,3 +46,5 @@ When you have found a commit reference to the point in history you wwnat to visi
 ![Checking out a previous commit](./undoing_commits_and_changes/checking_out_a_previous_commit.jpeg)
 
 Checking out an old file does not move the `HEAD` pointer. It remains on the same branch and same commit, avoiding a `detached head` state. You can then commit the old version of the file in a new snapshot as you would any other cahges. So, in effect, this usage of `git checkout` on a file, serves as a way to revert back to an old version of an individual file. Fore more information on these two modes visit the `git checkout` page.
+
+test!!
